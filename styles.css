@@ -1,0 +1,81 @@
+body {
+  font-family: Arial;
+}
+
+.container {
+  display: grid;
+  margin-left: 10px;
+}
+
+.tittle-container {}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  flood-color: rgb(25, 25, 25);
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.due-date-input {
+  font-size: 15px;
+  padding: 5px;
+}
+
+
+.add-button {
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(131, 140, 255);
+  padding: 9px;
+  cursor: pointer;
+}
+
+
+.name-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 5px;
+  row-gap: 10px;
+  align-items: center;
+  padding: 1px 10px;
+  border-radius: 5px;
+  width: 340px;
+  background-color: rgb(243, 243, 243);
+
+}
+.todo-name-container {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  
+}
+
+.delete-button {
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(255, 131, 162);
+  padding: 9px;
+
+  cursor: pointer;
+}
