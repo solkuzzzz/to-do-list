@@ -13,7 +13,6 @@ function renderTodoList() {
         <div>${dueDate}</div>
         <button class="delete-button js-delete-button" data-index="${index}">Delete</button> </div>
       `;
-
     todoListHTML += html;
   });
 
